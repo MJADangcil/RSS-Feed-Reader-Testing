@@ -85,7 +85,7 @@ $(function() {
         done();
       });
     });
-  });
+  
     /* This test ensures when the loadFeed
      * function is called and completes its work, there is at least
      * a single .entry element within the .feed container.
@@ -93,9 +93,9 @@ $(function() {
      * the use of Jasmine's beforeEach and asynchronous done() function.
      */
     it('should loadFeed and render to .feed container.', function() {
-      expect($('.feed').has('.entry').length).not.toBe(0);
+      expect($('.feed .entry').length).not.toBe(0);
     });
-
+  });
   /* Descrbies test suite for "New Feed Selection" */
   describe('New Feed Selection', function() {
     var initialFeedHTML;
@@ -110,7 +110,7 @@ $(function() {
       });
     });
 
-    /* TODO: Write a test that ensures when a new feed is loaded
+    /* This test ensures when a new feed is loaded
      * by the loadFeed function that the content actually changes.
      * Remember, loadFeed() is asynchronous.
      */

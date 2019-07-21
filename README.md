@@ -5,7 +5,9 @@ Whether you work in an organization that uses test-driven development or in an o
 
 
 ## Instructions
-Click [here](https://michaeljoshdangcil.github.io/RSS-Feed-Reader-Testing/) to view the page.
+You may do the following: 
++ Click [here](https://michaeljoshdangcil.github.io/RSS-Feed-Reader-Testing/) to view the page.
++ Download the project, open `index.html` in your favorite web browser, and the page will load in that tab.
 
 
 ## License
