@@ -81,9 +81,7 @@ $(function() {
   /* Describes test suite for "Initial Entries" */
   describe('Initial Entries', function() {
     beforeEach(function(done) {
-      loadFeed(0, function() {
-        done();
-      });
+      loadFeed(0, done);
     });
   
     /* This test ensures when the loadFeed
